@@ -201,6 +201,7 @@ button {
     width: 100%;
     display: block;
     padding: 8px;   
+    color: black;
 }
 
 .form-campo textarea {
