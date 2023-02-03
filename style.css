@@ -211,7 +211,9 @@ button {
 
 form {
     max-width: 360px;
-}
+    margin: 0 auto;
+    }
+
 
 form button {
     max-width: 120px ;
@@ -311,15 +313,15 @@ footer li img {
       }
 
       .container .form-campo {
-        width: 500px;
+        width: 90%;
         text-align: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 0 20px
+        display: block;
+        padding: 0 20px;
         }
 
 .container form button {
-    margin-left: 250px;
+    position: relative;
+    left: 90px
 }
 
 }
@@ -335,6 +337,19 @@ footer li img {
         overflow-x: hidden;
     }
 
+    #sobre img {
+        max-width: 100%;
+        height: 250px;
+        margin-right: 24px;
+    }
+
+    #products .container-flex.lista-produtos li,
+    #promos .container-flex.lista-produtos li {
+        width: calc(50% - 10px);
+        float: left;
+        margin-left: 100px;
+     }
+     
     .container .form-campo {
         width: 600px;
         margin-left: 50px;
