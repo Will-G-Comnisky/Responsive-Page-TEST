@@ -350,13 +350,8 @@ footer li img {
         margin-left: 100px;
      }
      
-    .container .form-campo {
-        width: 600px;
-        margin-left: 50px;
-        margin-right: 50px;
-        text-align: left;
-}
-    .container form button {
-        margin-left: 300px;
-    }
+     form {
+        max-width: 360px;
+        margin: 0 auto;
+     }
 }
